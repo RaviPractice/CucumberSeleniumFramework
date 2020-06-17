@@ -1,0 +1,588 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "OrangeHRM login page test",
+        "description": "",
+        "id": "orangehrm-app-login;orangehrm-login-page-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000014372,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on loginpage",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17444185,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of loginpage is OrangeHRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is_orangehrm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 731235542,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "admin123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5079780483,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18838755,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on homepage",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4922700179,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on admin tab and click on add button",
+            "match": {
+              "location": "LoginStepDefination.click_on_admin_tab_and_click_on_add_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6917507370,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters user details \"John Smith\" and \"Tom_1234\" and \"Tom_1234\" and \"Tom_1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Smith",
+                  "offset": 26
+                },
+                {
+                  "val": "Tom_1234",
+                  "offset": 43
+                },
+                {
+                  "val": "Tom_1234",
+                  "offset": 58
+                },
+                {
+                  "val": "Tom_1234",
+                  "offset": 73
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_employeename_username_password_confirmpassword(String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 812455249,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close browser",
+            "match": {
+              "location": "LoginStepDefination.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "OrangeHRM login page test",
+        "description": "",
+        "id": "orangehrm-app-login;orangehrm-login-page-test;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7032992330,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on loginpage",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14752568,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of loginpage is OrangeHRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is_orangehrm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 332262299,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "admin123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6794559894,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16419687,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on homepage",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2978382884,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on admin tab and click on add button",
+            "match": {
+              "location": "LoginStepDefination.click_on_admin_tab_and_click_on_add_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6325233502,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters user details \"John Smith\" and \"king_1234\" and \"King_1234\" and \"King_1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Smith",
+                  "offset": 26
+                },
+                {
+                  "val": "king_1234",
+                  "offset": 43
+                },
+                {
+                  "val": "King_1234",
+                  "offset": 59
+                },
+                {
+                  "val": "King_1234",
+                  "offset": 75
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_employeename_username_password_confirmpassword(String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 795762500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close browser",
+            "match": {
+              "location": "LoginStepDefination.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "OrangeHRM login page test",
+        "description": "",
+        "id": "orangehrm-app-login;orangehrm-login-page-test;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6966589350,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on loginpage",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15193984,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of loginpage is OrangeHRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is_orangehrm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 324422526,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "admin123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5065993386,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9802024,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on homepage",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4736763007,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on admin tab and click on add button",
+            "match": {
+              "location": "LoginStepDefination.click_on_admin_tab_and_click_on_add_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6943263026,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters user details \"John Smith\" and \"James_1234\" and \"James_1234\" and \"James_1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Smith",
+                  "offset": 26
+                },
+                {
+                  "val": "James_1234",
+                  "offset": 43
+                },
+                {
+                  "val": "James_1234",
+                  "offset": 60
+                },
+                {
+                  "val": "James_1234",
+                  "offset": 77
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_employeename_username_password_confirmpassword(String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 770366648,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close browser",
+            "match": {
+              "location": "LoginStepDefination.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "OrangeHRM login page test",
+        "description": "",
+        "id": "orangehrm-app-login;orangehrm-login-page-test;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6650872491,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on loginpage",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26508119,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of loginpage is OrangeHRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is_orangehrm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 319616727,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "admin123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5051727916,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9500219,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on homepage",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4393180928,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on admin tab and click on add button",
+            "match": {
+              "location": "LoginStepDefination.click_on_admin_tab_and_click_on_add_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6731596375,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters user details \"John Smith\" and \"Smith_1234\" and \"Smith_1234\" and \"Smith_1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Smith",
+                  "offset": 26
+                },
+                {
+                  "val": "Smith_1234",
+                  "offset": 43
+                },
+                {
+                  "val": "Smith_1234",
+                  "offset": 60
+                },
+                {
+                  "val": "Smith_1234",
+                  "offset": 77
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_employeename_username_password_confirmpassword(String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 768359228,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close browser",
+            "match": {
+              "location": "LoginStepDefination.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM app login",
+    "description": "",
+    "id": "orangehrm-app-login",
+    "keyword": "Feature",
+    "uri": "C:/Users/RAVI/April2020/OrangeHRMBDDFramework/src/main/java/Features/users.feature"
+  }
+]

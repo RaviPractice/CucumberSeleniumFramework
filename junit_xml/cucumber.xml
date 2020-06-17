@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="100.574098">
+<testcase classname="OrangeHRM app login" name="OrangeHRM login page test" time="27.499976">
+<system-out><![CDATA[Given user is already on loginpage..........................................passed
+When title of loginpage is OrangeHRM........................................passed
+Then user enters "Admin" and "admin123".....................................passed
+Then user click on login button.............................................passed
+Then user is on homepage....................................................passed
+Then click on admin tab and click on add button.............................passed
+Then user enters user details "John Smith" and "Tom_1234" and "Tom_1234" and "Tom_1234".passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM app login" name="OrangeHRM login page test 2" time="24.290366">
+<system-out><![CDATA[Given user is already on loginpage..........................................passed
+When title of loginpage is OrangeHRM........................................passed
+Then user enters "Admin" and "admin123".....................................passed
+Then user click on login button.............................................passed
+Then user is on homepage....................................................passed
+Then click on admin tab and click on add button.............................passed
+Then user enters user details "John Smith" and "king_1234" and "King_1234" and "King_1234".passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM app login" name="OrangeHRM login page test 3" time="24.832394">
+<system-out><![CDATA[Given user is already on loginpage..........................................passed
+When title of loginpage is OrangeHRM........................................passed
+Then user enters "Admin" and "admin123".....................................passed
+Then user click on login button.............................................passed
+Then user is on homepage....................................................passed
+Then click on admin tab and click on add button.............................passed
+Then user enters user details "John Smith" and "James_1234" and "James_1234" and "James_1234".passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM app login" name="OrangeHRM login page test 4" time="23.951362">
+<system-out><![CDATA[Given user is already on loginpage..........................................passed
+When title of loginpage is OrangeHRM........................................passed
+Then user enters "Admin" and "admin123".....................................passed
+Then user click on login button.............................................passed
+Then user is on homepage....................................................passed
+Then click on admin tab and click on add button.............................passed
+Then user enters user details "John Smith" and "Smith_1234" and "Smith_1234" and "Smith_1234".passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
